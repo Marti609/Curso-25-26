@@ -1,7 +1,7 @@
 num=input("")
 lista=num.split()
 
-if len(num) == 1:
+if len(num)==1:
     num2=input("")
     print(int(num)+int(num2))
 else:

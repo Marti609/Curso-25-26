@@ -1,2 +1,2 @@
-num1=int(input())
-num2=int(input())
+a, b=map(int, input().split()) 
+print(max(a, b))
