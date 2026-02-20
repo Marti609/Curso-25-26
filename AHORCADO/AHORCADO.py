@@ -1,4 +1,6 @@
 import random
+import time
+tiempo=time.time()
 lista_palabras = ["python", "programacion", "ahorcado", "desarrollo", "inteligencia", "computadora", "juego", "palabra", "adivinar", "letra"]
 lista_partidas = []
 def elegir_palabra():
@@ -65,4 +67,3 @@ def main():
             break
         else:
             print("Opción no válida. Intenta de nuevo.")
-           
